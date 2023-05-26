@@ -1,0 +1,17 @@
+{
+  "name": "olexandr_kyrychenko",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha tests/orange.js --timeout  10000"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "chromedriver": "^113.0.0",
+    "geckodriver": "^4.0.0",
+    "selenium-webdriver": "^4.9.2"
+  }
+}
