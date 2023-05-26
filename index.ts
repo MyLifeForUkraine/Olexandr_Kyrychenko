@@ -3,7 +3,7 @@ const fs = require('fs')
 
 const dropbox = dropboxV2Api.authenticate({
    // Your token here
-   token: 'sl.BfK08WoVUEgBJZzuyN4eHsLuhPyM193gsE8urYcjWlDC6n-tBkCSaVVChYDiILxGiZhtxSYoUuM1baV1Zo4K5SQHMI6G1j2I_Mi4ZXnEOgKZWDTAnHugu-5lHKp1S-0oHX831ciNwAL3'
+   token: 'sl.BfLx3YPrkFqKawBqXFUywpdvXVqSqwUidNpNUn2vQK3MchveOisTLJaBrDtK55-_OrN0prbTPGeqT_7YMcxd6ZRYVr-DnIWEonuw8SCchw93iOLTmGZrlx3XELOuBhHZ16ysRzN5HOxZ'
 });
 
 export const UploadFile = (file_dir: string, file_name: string, dbx_dir: string): Promise<boolean> => {
